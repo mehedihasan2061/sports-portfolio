@@ -43,6 +43,10 @@
             font-size: .8rem;
             
         }
+        .btn.show {
+          
+            display: block;
+        }
 
    }
 

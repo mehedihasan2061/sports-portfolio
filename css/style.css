@@ -64,14 +64,14 @@ i.fa-solid.fa-arrow-right {
 ============= Header css =================
 ====================================*/
  
-.banner {
+.top-banner {
     background: linear-gradient(rgb(16, 174, 153), rgb(17, 212, 30));
     border-radius: 30px;
     display: flex;
     color: #fff;
     overflow: hidden;
 } 
-   .banner img{
+   .top-banner img{
     position: relative;
     animation: imageTransition 5s ease-in-out infinite;
    }
@@ -161,7 +161,16 @@ article.matches {
 }
 
 
-
+/* show more btn  */
+.btn.show {
+    background: red;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 14px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: none;
+}
 
 
 
